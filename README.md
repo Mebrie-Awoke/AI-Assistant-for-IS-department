@@ -46,33 +46,6 @@ Google Fonts: Inter typography
 ## 📁 Project Structure
 
 IS-RAG-Based-AI-Assistant/
-├── Backend/
-│   ├── app.py                 # Main Flask application
-│   ├── helper.py              # Helper functions
-│   ├── prompt.py              # LLM prompt templates
-│   ├── src/                   # Source modules
-│   ├── chroma_db/             # Vector database storage
-│   ├── data/                   # Document storage
-│   ├── requirements.txt       # Python dependencies
-│   ├── Procfile               # Render deployment config
-│   ├── render-build.sh        # Build script for Render
-│   └── .env.example           # Environment variables template
-│
-├── Frontend/
-│   ├── templates/
-│   │   └── chat.html          # Main chat interface
-│   └── static/
-│       ├── style.css          # Custom styling
-│       └── script.js           # Frontend logic
-│
-├── Images/
-│   └── image.png              # Department logo
-│
-├── .gitignore                  # Git ignore rules
-├── README.md                   # Project documentation
-└── render.yaml                 # Render configuration
-
-IS-RAG-Based-AI-Assistant/
 
 ├── Backend/
 
