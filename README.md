@@ -65,6 +65,7 @@ IS-RAG-Based-AI-Assistant/
 │   ├── requirements.txt       # Python dependencies
 
 │   └── .env           # Environment variables 
+
 │
 ├── Frontend/
 
@@ -77,6 +78,7 @@ IS-RAG-Based-AI-Assistant/
 │       ├── style.css          # Custom styling
 
 │       └── script.js           # Frontend logic
+
 │
 ├── Images/
 
