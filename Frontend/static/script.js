@@ -120,6 +120,7 @@ $(document).ready(function() {
         $('.message-time').toggleClass('dark-theme');
         $('.footer-text').toggleClass('dark-theme');
         $('.header-info h4').toggleClass('dark-theme');
+        $('.bot-avatar').toggleClass('dark-theme'); 
         $('.status span').toggleClass('dark-theme');
         $('.header-actions i').toggleClass('dark-theme');
         $('pre').toggleClass('dark-theme');
