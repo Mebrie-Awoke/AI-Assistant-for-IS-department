@@ -1,4 +1,113 @@
-# IS-RAG-Based-AI-Assistant
-## This is RAG based AI assistant for Information System 
-"# AI-Assistant-for-IS-department" 
-"# AI-Assistant-for-IS-department" 
+# SIS Assistant - AI-Powered Chatbot for Information System Department
+An intelligent RAG (Retrieval-Augmented Generation) chatbot designed to assist students and staff of the Information System Department at Addis Ababa University. The assistant provides accurate information about programs, courses, faculty, admission requirements, and more by leveraging document retrieval and LLM technology.
+
+
+🎯 Overview
+SIS Assistant is a full-stack chatbot application that combines a Flask backend with a modern HTML/CSS/JavaScript frontend. It uses RAG technology to retrieve relevant information from department documents and generate accurate, contextual responses. The system is specifically tailored for the Information System Department at Addis Ababa University.
+
+✨ Features
+Intelligent Q&A: Ask questions about undergraduate/postgraduate programs, courses, faculty, admission requirements, and research areas
+
+Document Upload: Upload PDF documents to expand the knowledge base
+
+Chat History: Persistent storage of last 10 conversations with timestamp
+
+Dark/Light Theme: Toggle between dark and light mode for comfortable viewing
+
+Quick Actions: Pre-defined questions for common inquiries
+
+Responsive Design: Works seamlessly on desktop and mobile devices
+
+Real-time Responses: Typing indicators and instant feedback
+
+Formatted Output: Clean formatting for lists, bullet points, and code blocks
+
+🛠️ Tech Stack
+Backend
+Framework: Flask (Python 3.11)
+
+LLM Integration: Groq API (Llama 3.3 70B)
+
+Vector Database: ChromaDB
+
+Embeddings: HuggingFace (all-MiniLM-L6-v2)
+
+Document Processing: LangChain (PyPDFLoader, RecursiveCharacterTextSplitter)
+
+Frontend
+HTML5/CSS3: Custom styling with CSS variables
+
+JavaScript: jQuery for DOM manipulation and AJAX calls
+
+Font Awesome: Icons and UI elements
+
+Google Fonts: Inter typography
+
+Deployment
+Backend Hosting: Render
+
+Frontend Hosting: Netlify (optional)
+
+Version Control: Git/GitHub
+
+📁 Project Structure
+text
+IS-RAG-Based-AI-Assistant/
+├── Backend/
+│   ├── app.py                 # Main Flask application
+│   ├── helper.py              # Helper functions
+│   ├── prompt.py              # LLM prompt templates
+│   ├── src/                   # Source modules
+│   ├── chroma_db/             # Vector database storage
+│   ├── data/                   # Document storage
+│   ├── requirements.txt       # Python dependencies
+│   ├── Procfile               # Render deployment config
+│   ├── render-build.sh        # Build script for Render
+│   └── .env.example           # Environment variables template
+│
+├── Frontend/
+│   ├── templates/
+│   │   └── chat.html          # Main chat interface
+│   └── static/
+│       ├── style.css          # Custom styling
+│       └── script.js           # Frontend logic
+│
+├── Images/
+│   └── image.png              # Department logo
+│
+├── .gitignore                  # Git ignore rules
+├── README.md                   # Project documentation
+└── render.yaml                 # Render configuration
+🚀 Installation
+Prerequisites
+Python 3.11 or higher
+
+Git
+
+Groq API key (sign up at console.groq.com)
+
+Local Setup
+Clone the repository
+
+bash
+git clone https://github.com/Mebrie-Awoke/IS-RAG-Based-AI-Assistant.git
+cd IS-RAG-Based-AI-Assistant
+Set up backend
+
+bash
+cd Backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+Configure environment variables
+
+bash
+cp .env.example .env
+# Edit .env and add your Groq API key:
+# GROQ_API_KEY=your_actual_api_key_here
+Run the application
+
+bash
+python app.py
+Access the application
+Open your browser and navigate to http://localhost:8080
