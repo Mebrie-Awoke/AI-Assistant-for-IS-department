@@ -128,9 +128,10 @@ GROQ_API_KEY=your_actual_api_key_here
 Run the application
 
 bash
-python index.py
 
-python app.py
+'python index.py'
+
+'python app.py'
 
 ## Access the application
 
