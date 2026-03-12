@@ -44,33 +44,49 @@ Google Fonts: Inter typography
 
 
 ## 📁 Project Structure
-text
+
+
 IS-RAG-Based-AI-Assistant/
+
 ├── Backend/
+
 │   ├── app.py                 # Main Flask application
+
 │   ├── helper.py              # Helper functions
+
 │   ├── prompt.py              # LLM prompt templates
+
 │   ├── src/                   # Source modules
+
 │   ├── chroma_db/             # Vector database storage
+
 │   ├── data/                   # Document storage
+
 │   ├── requirements.txt       # Python dependencies
-│   ├── Procfile               # Render deployment config
-│   ├── render-build.sh        # Build script for Render
-│   └── .env.example           # Environment variables template
+
+│   └── .env           # Environment variables 
 │
 ├── Frontend/
+
 │   ├── templates/
+
 │   │   └── chat.html          # Main chat interface
+
 │   └── static/
+
 │       ├── style.css          # Custom styling
+
 │       └── script.js           # Frontend logic
 │
 ├── Images/
+
 │   └── image.png              # Department logo
+
 │
 ├── .gitignore                  # Git ignore rules
+
 ├── README.md                   # Project documentation
-└── render.yaml                 # Render configuration
+
 
 ##🚀 Installation
 
@@ -81,29 +97,40 @@ Git
 
 Groq API key (sign up at console.groq.com)
 
-Local Setup
+## Local Setup
+
 Clone the repository
 
 bash
 git clone https://github.com/Mebrie-Awoke/IS-RAG-Based-AI-Assistant.git
+
 cd IS-RAG-Based-AI-Assistant
+
 Set up backend
 
 bash
 cd Backend
+
 python -m venv venv
+
 pip install -r requirements.txt
+
 Configure environment variables
 
 bash
 cp .env.example .env
+
  Edit .env and add your Groq API key:
+ 
 GROQ_API_KEY=your_actual_api_key_here
+
 Run the application
 
 bash
 python index.py
+
 python app.py
 
 ## Access the application
+
 Open your browser and navigate to http://localhost:8080
