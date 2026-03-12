@@ -86,7 +86,7 @@ body.dark-theme {
 .header-left {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     cursor: pointer;
     transition: opacity 0.2s ease;
 }
@@ -95,17 +95,25 @@ body.dark-theme {
     opacity: 0.8;
 }
 
-/* Header logo/image styles */
+/* Bot Avatar Styles - UPDATED */
 .bot-avatar {
     width: 40px;
     height: 40px;
-    background: transparent;
+    background: #10a37f;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     pointer-events: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.bot-avatar.dark-theme {
+    background: #0e8c6d;
+    color: #ffffff;
 }
 
 .header-logo {
@@ -113,6 +121,27 @@ body.dark-theme {
     height: 100%;
     object-fit: contain;
     border-radius: 5px;
+}
+
+/* Header Info - UPDATED with dark theme */
+.header-info {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-info h4 {
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.2px;
+    transition: color 0.3s ease;
+    line-height: 1.2;
+}
+
+.header-info h4.dark-theme {
+    color: #e0e0e0;
 }
 
 /* New Chat Button */
@@ -143,11 +172,11 @@ body.dark-theme {
 }
 
 .new-chat-btn.dark-theme {
-    background: #10a37f;
+    background: #0e8c6d;
 }
 
 .new-chat-btn.dark-theme:hover {
-    background: #0e8c6d;
+    background: #0a6b53;
 }
 
 /* Status indicator in header */
@@ -177,56 +206,11 @@ body.dark-theme {
     color: #999;
 }
 
-/* Update header-info to accommodate status */
-.header-info {
-    pointer-events: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.header-info h4 {
-    color: #1a1a1a;
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0;
-    letter-spacing: -0.2px;
-    transition: color 0.3s ease;
-    line-height: 1.2;
-}
-
-/* Adjust header-left spacing */
-.header-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-}
-
-/* Responsive adjustment for header */
-@media (max-width: 850px) {
-    .bot-avatar {
-        width: 35px;
-        height: 35px;
-    }
-    
-    .new-chat-btn {
-        padding: 4px 10px;
-        font-size: 0.8rem;
-    }
-    
-    .status span {
-        font-size: 0.65rem;
-    }
-}
-.status span.dark-theme {
-    color: #999;
-}
-
 .header-actions {
     display: flex;
     gap: 16px;
     color: #6b6b6b;
+    align-items: center;
 }
 
 .header-actions i {
@@ -236,7 +220,11 @@ body.dark-theme {
 }
 
 .header-actions i:hover {
-    color: hsl(0, 20%, 8%);
+    color: #1a1a1a;
+}
+
+.header-actions i.dark-theme {
+    color: #b0b0b0;
 }
 
 .header-actions i.dark-theme:hover {
@@ -609,6 +597,21 @@ code.dark-theme {
 @media (max-width: 850px) {
     .system-header {
         padding: 10px 20px;
+    }
+    
+    .bot-avatar {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .new-chat-btn {
+        padding: 4px 10px;
+        font-size: 0.8rem;
+    }
+    
+    .status span {
+        font-size: 0.65rem;
     }
     
     .chat-container {
