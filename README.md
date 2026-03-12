@@ -2,15 +2,13 @@
 An intelligent RAG (Retrieval-Augmented Generation) chatbot designed to assist students and staff of the Information System Department at Addis Ababa University. The assistant provides accurate information about programs, courses, faculty, admission requirements, and more by leveraging document retrieval and LLM technology.
 
 
-🎯 Overview
+## 🎯 Overview
+
 SIS Assistant is a full-stack chatbot application that combines a Flask backend with a modern HTML/CSS/JavaScript frontend. It uses RAG technology to retrieve relevant information from department documents and generate accurate, contextual responses. The system is specifically tailored for the Information System Department at Addis Ababa University.
 
-✨ Features
+## ✨ Features
+
 Intelligent Q&A: Ask questions about undergraduate/postgraduate programs, courses, faculty, admission requirements, and research areas
-
-Document Upload: Upload PDF documents to expand the knowledge base
-
-Chat History: Persistent storage of last 10 conversations with timestamp
 
 Dark/Light Theme: Toggle between dark and light mode for comfortable viewing
 
@@ -22,19 +20,19 @@ Real-time Responses: Typing indicators and instant feedback
 
 Formatted Output: Clean formatting for lists, bullet points, and code blocks
 
-🛠️ Tech Stack
-Backend
-Framework: Flask (Python 3.11)
+## 🛠️ Tech Stack
+### Backend
+Framework: Flask 
 
-LLM Integration: Groq API (Llama 3.3 70B)
+LLM Integration: Groq API 
 
 Vector Database: ChromaDB
 
-Embeddings: HuggingFace (all-MiniLM-L6-v2)
+Embeddings: HuggingFace 
 
 Document Processing: LangChain (PyPDFLoader, RecursiveCharacterTextSplitter)
 
-Frontend
+### Frontend
 HTML5/CSS3: Custom styling with CSS variables
 
 JavaScript: jQuery for DOM manipulation and AJAX calls
@@ -43,14 +41,9 @@ Font Awesome: Icons and UI elements
 
 Google Fonts: Inter typography
 
-Deployment
-Backend Hosting: Render
 
-Frontend Hosting: Netlify (optional)
 
-Version Control: Git/GitHub
-
-📁 Project Structure
+## 📁 Project Structure
 text
 IS-RAG-Based-AI-Assistant/
 ├── Backend/
@@ -78,8 +71,10 @@ IS-RAG-Based-AI-Assistant/
 ├── .gitignore                  # Git ignore rules
 ├── README.md                   # Project documentation
 └── render.yaml                 # Render configuration
-🚀 Installation
-Prerequisites
+
+##🚀 Installation
+
+Prerequisites:
 Python 3.11 or higher
 
 Git
@@ -97,17 +92,18 @@ Set up backend
 bash
 cd Backend
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 Configure environment variables
 
 bash
 cp .env.example .env
-# Edit .env and add your Groq API key:
-# GROQ_API_KEY=your_actual_api_key_here
+ Edit .env and add your Groq API key:
+GROQ_API_KEY=your_actual_api_key_here
 Run the application
 
 bash
+python index.py
 python app.py
-Access the application
+
+## Access the application
 Open your browser and navigate to http://localhost:8080
