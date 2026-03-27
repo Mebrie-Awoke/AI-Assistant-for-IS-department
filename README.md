@@ -45,9 +45,6 @@ Google Fonts: Inter typography
 
 
 
-│       ├── style.css          # Custom styling
-
-│       └── script.js           # Frontend logic
 
 │
 ├── Images/
