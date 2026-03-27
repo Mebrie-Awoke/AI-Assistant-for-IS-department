@@ -43,9 +43,7 @@ Google Fonts: Inter typography
 
 
 
-│   │   └── chat.html          # Main chat interface
 
-│   └── static/
 
 │       ├── style.css          # Custom styling
 
