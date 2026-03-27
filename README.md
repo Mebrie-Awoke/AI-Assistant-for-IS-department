@@ -43,9 +43,6 @@ Google Fonts: Inter typography
 
 
 
-#
-
-
 │   ├── app.py                 # Main Flask application
 
 │   ├── helper.py              # Helper functions
