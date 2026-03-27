@@ -43,7 +43,6 @@ Google Fonts: Inter typography
 
 
 
-│   ├── helper.py              # Helper functions
 
 │   ├── prompt.py              # LLM prompt templates
 
