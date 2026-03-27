@@ -42,9 +42,6 @@ Font Awesome: Icons and UI elements
 Google Fonts: Inter typography
 
 
-
-
-
 ##🚀 Installation
 
 Prerequisites:
