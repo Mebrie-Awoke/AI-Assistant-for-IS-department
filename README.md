@@ -43,7 +43,7 @@ Google Fonts: Inter typography
 
 
 
-│   ├── data/                   # Document storage
+
 
 │   ├── requirements.txt       # Python dependencies
 
