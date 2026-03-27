@@ -43,9 +43,6 @@ Google Fonts: Inter typography
 
 
 
-│   ├── requirements.txt       # Python dependencies
-
-│   └── .env           # Environment variables 
 
 │
 ├── Frontend/
