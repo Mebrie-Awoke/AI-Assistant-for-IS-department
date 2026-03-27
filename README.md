@@ -43,8 +43,6 @@ Google Fonts: Inter typography
 
 
 
-│   ├── templates/
-
 │   │   └── chat.html          # Main chat interface
 
 │   └── static/
