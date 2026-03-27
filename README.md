@@ -43,14 +43,6 @@ Google Fonts: Inter typography
 
 
 
-├── Images/
-
-│   └── image.png              # Department logo
-
-│
-├── .gitignore                  # Git ignore rules
-
-├── README.md                   # Project documentation
 
 
 ##🚀 Installation
