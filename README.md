@@ -43,7 +43,7 @@ Google Fonts: Inter typography
 
 
 
-│   ├── chroma_db/             # Vector database storage
+
 
 │   ├── data/                   # Document storage
 
