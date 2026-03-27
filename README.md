@@ -45,9 +45,6 @@ Google Fonts: Inter typography
 
 ## 📁 Project Structure
 
-IS-RAG-Based-AI-Assistant/
-
-├── Backend/
 
 │   ├── app.py                 # Main Flask application
 
