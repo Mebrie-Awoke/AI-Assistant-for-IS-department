@@ -44,7 +44,6 @@ Google Fonts: Inter typography
 
 
 
-│   ├── prompt.py              # LLM prompt templates
 
 │   ├── src/                   # Source modules
 
