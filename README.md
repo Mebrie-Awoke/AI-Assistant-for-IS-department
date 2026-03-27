@@ -43,10 +43,6 @@ Google Fonts: Inter typography
 
 
 
-
-
-
-│
 ├── Images/
 
 │   └── image.png              # Department logo
