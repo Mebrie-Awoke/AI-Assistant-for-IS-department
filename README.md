@@ -20,7 +20,7 @@ Real-time Responses: Typing indicators and instant feedback
 
 Formatted Output: Clean formatting for lists, bullet points, and code blocks
 
-## 🛠️ Tech Stack
+## Tech Stack
 ### Backend
 Framework: Flask 
 
