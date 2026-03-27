@@ -43,7 +43,7 @@ Google Fonts: Inter typography
 
 
 
-## Project Structure
+#
 
 
 │   ├── app.py                 # Main Flask application
