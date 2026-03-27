@@ -43,8 +43,6 @@ Google Fonts: Inter typography
 
 
 
-
-
 │   ├── src/                   # Source modules
 
 │   ├── chroma_db/             # Vector database storage
