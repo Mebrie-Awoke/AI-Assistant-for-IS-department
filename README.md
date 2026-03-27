@@ -42,7 +42,7 @@ Font Awesome: Icons and UI elements
 Google Fonts: Inter typography
 
 
-##🚀 Installation
+## Installation
 
 Prerequisites:
 Python 3.11 or higher
