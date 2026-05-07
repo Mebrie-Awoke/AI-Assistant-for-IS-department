@@ -2,6 +2,7 @@
 An intelligent RAG (Retrieval-Augmented Generation) chatbot designed to assist students and staff of the Information System Department at Addis Ababa University. The assistant provides accurate information about programs, courses, faculty, admission requirements, and more by leveraging document retrieval and LLM technology.
 
 
+
 ## Overview
 
 SIS Assistant is a full-stack chatbot application that combines a Flask backend with a modern HTML/CSS/JavaScript frontend. It uses RAG technology to retrieve relevant information from department documents and generate accurate, contextual responses. The system is specifically tailored for the Information System Department at Addis Ababa University.
