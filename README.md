@@ -3,7 +3,7 @@ An intelligent RAG (Retrieval-Augmented Generation) chatbot designed to assist s
 
 
 
-Mebrie
+Mebrie Awoke
 ## Overview
 
 SIS Assistant is a full-stack chatbot application that combines a Flask backend with a modern HTML/CSS/JavaScript frontend. It uses RAG technology to retrieve relevant information from department documents and generate accurate, contextual responses. The system is specifically tailored for the Information System Department at Addis Ababa University.
