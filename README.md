@@ -1,4 +1,4 @@
-# SIS Assistant - AI-Powered Chatbot for Information System Department
+# SIS Assistant - AI-Powered Chatbot for Information System Department 
 An intelligent RAG (Retrieval-Augmented Generation) chatbot designed to assist students and staff of the Information System Department at Addis Ababa University. The assistant provides accurate information about programs, courses, faculty, admission requirements, and more by leveraging document retrieval and LLM technology.
 
 ## Overview  
